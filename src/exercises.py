@@ -1,11 +1,9 @@
+import math
 def reverse_list(input_list):
-    """
-    Reverses order of elements in list input_list.
-    """
-    return None
+    input_list.reverse()
+    return input_list
 
 def count_digits(number):
-    """
-    Return count of digits
-    """
-    return None
+    return math.floor(math.log10(number)+1)
+    
+
